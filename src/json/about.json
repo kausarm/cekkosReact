@@ -1,0 +1,25 @@
+{
+    "about":[
+    {
+        "id":1,
+        "title":"Keakuratan lokasi yang lebih baik",
+        "desc":"Kami berupaya untuk meningkatkan keakuratan lokasi kos untuk memudahkan penyewa dan pemilik kos bertemu."
+    },
+    {
+        "id":2,
+        "title":"Mempermudah pemilik kos",
+        "text":"Fitur yang kami sediakan untuk mempermudah pemilik kos dalam hal mengatur kos yang sudah di pasang pada website kami. "
+    },
+    {
+        "id":3,
+        "title":"Lebih banyak iklan untuk tiap daerah",
+        "text":"Kami berupaya mencari mitra  untuk meningkatkan iklan kos di berbagai daerah di aceh."
+    },
+    {
+        "id":4,
+        "title":"Aksesibilitas Website",
+        "text":"Kami berupaya untuk menerapkan standar aksesibilitas digital."
+    }
+
+    ]
+}

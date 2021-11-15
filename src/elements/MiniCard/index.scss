@@ -1,0 +1,47 @@
+.mini-card-wrapper{
+    width: 255px;
+    height: 165px;
+    border-radius: 12px;
+    padding: 24px;
+    background: #FFFFFF;
+    &:hover{
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.07);
+    }
+    .title{
+        margin-left: -70px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 16px;
+        color: #909190;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mini-card-wrapper{
+        width: 156px;
+        height: 109px;
+        border-radius: 12px;
+        padding: 5px;
+        background: #FFFFFF;
+    &:hover{
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.07);
+    }
+    .title{
+        margin-left: -40px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    p{
+        margin-top: -10px;
+        font-size: 11px;
+        line-height: 11px;
+        color: #909190;
+    }
+    }
+    
+}

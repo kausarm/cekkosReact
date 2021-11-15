@@ -1,0 +1,347 @@
+/*!
+ * Bootstrap v5.1.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "container-grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+// .btn:focus {
+// 	-webkit-box-shadow: none;
+// }
+
+// .form-control:focus {
+// 	-webkit-box-shadow:none;
+// }
+
+// Header
+.navbar{
+    // background-color: #F5F5F5 !important;
+    ::-webkit-input-placeholder  {
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+    .form-wrapper{
+        // margin-top: 30px;
+        width: 285px;
+        height: 29px;
+        border: 1px solid #D9D9D9;
+        border-radius: 4px;
+        padding: 4px 8px;
+        .search-button{
+            width: 30px;
+            height: 20px;
+            background-color: #FFFFFF;
+            border: none;
+            
+        }
+    }
+    .navbar-brand{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.085em;
+    }
+    .nav-space{
+         margin-right: 32px;
+    }
+}
+// End Header
+
+
+.hero{
+    .container{
+        background: url(../images/HeroImg.png) no-repeat center center;
+        margin-top: 72px;
+        border-radius: 8px;
+        // background-repeat: no-repeat;
+        // background-position: center;
+        width: 100%;
+        height: 588px;
+        h1{
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 54px;
+            letter-spacing: 2px;
+            margin-left: 77px;
+        }
+        .search-wrapper{
+            padding: 18px 62px 18px 62px;
+            border-radius: 24px;
+            margin-left: 77px;
+            background-color: #FFFFFF;
+            margin-top: 104px;
+            width: 693px;
+            height: 102px;
+        }
+        .vertical-line{
+            width: 1px !important;
+            height: 59px;
+            background: #D9D9D9;
+            margin-right: 42px;
+            margin-left: 68px;
+        }
+        .form-select{
+            width: 180px;
+            font-size: 14px;
+        }
+        .form-label{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .form-control{
+            width: 172px;
+        }::-webkit-input-placeholder{
+	        color: black;
+            font-size: 14px;
+        }
+    }
+}
+
+.card-section{
+    .container{
+        .card-row{
+            margin-top: 56px;
+        }
+    }
+}
+
+.popular{
+    margin: 80px 0 80px 0;
+    .row-cardOverlay{
+        margin-top: 56px;
+    }
+}
+
+// .card{
+//     height: 100%;
+// }
+
+// CARD
+.card{
+    width: 255px;
+    height: 327px;
+    border: 3px solid #F5F5F5;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 16px;
+    .card-title{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 8px 0px 8px 0px;
+    }
+    .card-img-top{
+        border-radius: 8px;
+    }
+    .img-wrapper{
+        position: relative;
+        .label-type{
+            margin-bottom: 8px;
+            position: absolute;
+            bottom: -0;
+        }
+    }
+    .features{
+        margin-top: 8px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        color: #909190;
+    }
+
+    &:hover {
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    top: -4px;
+  }
+}
+// END CARD
+
+// BIG TITLE
+.big-title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+}
+// END BIG TITLE
+
+section{
+    margin-bottom: 80px;
+}
+
+// Join Kos Owner
+.joinKosOwner{
+    background-color: #509292;
+    height: 172px;
+    margin-bottom: 0;
+    p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 16px;
+    }
+    
+}
+// End Join Kos Owner
+
+
+// Footer
+.date-footer{
+    height: 50px !important;
+    background-color: #fff;
+    p{
+        font-size: 12px;
+        line-height: 16px;
+        color: #000000;
+    }
+}
+
+// allProduct
+.allProduct{
+    margin-top: 64px;
+    .filtering{
+        margin-top: 26px;
+        margin-bottom: 42px;
+        .filterItem{
+        margin-right: 24px;        
+        }
+    }
+    .pagination{
+            margin-top: 40px;
+        }
+}
+// end allProduct
+
+// about
+.about{
+    margin-top:82px;
+    p{
+        font-size: 14px;
+        line-height: 20px;
+        color: #909190;
+    }
+    .img-about{
+        margin: 49px 0 72px 0;
+        width: 1110px;
+        height: 324px;
+        background: url(../images/imgAbout.png) no-repeat center center;
+        border-radius: 16px;
+    }
+    .features-wrapper{
+        .fetures-title{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    }
+}
+// end about
+
+footer{
+    font-family: 'Raleway', sans-serif;
+    height: 300px;
+    // padding: 56px 0 72px 0;
+    background-color: #F5F5F5;
+    span{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.085em;
+    }
+    p,a{        
+        font-size: 12px;
+        line-height: 16px;
+        color: #909190;
+    }
+    h4{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    ul{
+        li{
+            a{
+                text-decoration: none;
+              &:hover{
+                  color: #909190;
+                  text-decoration: underline;
+              }  
+            }
+        }
+    }
+}
+// End Footer
+
+
+@media screen and (max-width: 576px) {
+      .navbar{
+        .navbar-nav{
+        .btn{
+            width: 100%;
+        }
+    }
+  }
+   .sm-adjust{
+            margin-top: 28px;
+        }
+    .goto{
+        margin-top: 24px;
+        display: flex;
+        justify-content: start;
+    }
+    footer{
+        p{
+            white-space: nowrap;
+        }
+    }
+}
+

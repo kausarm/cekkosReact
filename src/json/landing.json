@@ -1,0 +1,29 @@
+{
+    "minicard":[
+    {
+        "id":1,
+        "title":"TEMUKAN TEMPAT KOS YANG TEPAT",
+        "text":"Pilih kos sesuai dengan selera dan tempat terdekat dengan kampus atau tempat kerjamu.",
+        "img":"assets/icons/Imaps.svg"
+    },
+    {
+        "id":2,
+        "title":"PEMILIK KOS TERPERCAYA DAN RAMAH",
+        "text":"Kami pastikan kamu bertemu dengan pemilik kos yang terpercaya dan ramah.",
+        "img":"assets/icons/Ipemilik.svg"
+    },
+    {
+        "id":3,
+        "title":"100% TRANSAKSI AMAN DAN NYAMAN",
+        "text":"Pembayaran kos langsung dengan pemilik kos, jadi lebih aman.",
+        "img":"assets/icons/Igembok.svg"
+    },
+    {
+        "id":4,
+        "title":"DAPATKAN PENGALAMAN DI TEMPAT BARU",
+        "text":"Nikmati harimu ditempat baru dengan berbagai pengalaman yang akan kamu dapat.",
+        "img":"assets/icons/Iheart.svg"
+    }
+
+    ]
+}
